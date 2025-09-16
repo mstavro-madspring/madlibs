@@ -1,8 +1,12 @@
 library(shiny)
 library(bslib)
 library(shinyvalidate)
+library(glue)
 
 generate_story <- function(noun, verb, adjective, adverb) {
+  cat(glue(
+    "Story inputs 📕\nNoun: {noun}\nVerb: {verb}\nAdjective: {adjective}\nAdverb: {adverb}\n\n"
+  ))
   glue::glue(
     "
     Once upon a time, there was a {adjective} {noun} who loved to
@@ -39,6 +43,7 @@ server <- function(input, output) {
   iv$add_rule("adjective", sv_required())
   iv$add_rule("adverb", sv_required())
   story <- reactive({
+    cat("\n\nOutputting story 📰\n\n")
     generate_story(input$noun1, input$verb, input$adjective, input$adverb)
   })
   output$story <- renderText({

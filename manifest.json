@@ -810,6 +810,41 @@
         "Archs": "sourcetools.so.dSYM"
       }
     },
+    "useself": {
+      "Source": "github",
+      "Repository": null,
+      "description": {
+        "Package": "useself",
+        "Title": "Test quarto vignettes that use the current package",
+        "Version": "0.0.0.9000",
+        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = c(\"aut\", \"cre\")),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Description": "What the package does (one paragraph).",
+        "License": "MIT + file LICENSE",
+        "Encoding": "UTF-8",
+        "Roxygen": "list(markdown = TRUE)",
+        "RoxygenNote": "7.3.1",
+        "Suggests": "quarto",
+        "VignetteBuilder": "quarto",
+        "URL": "https://github.com/hadley/useself",
+        "BugReports": "https://github.com/hadley/useself/issues",
+        "RemoteType": "github",
+        "RemoteHost": "api.github.com",
+        "RemoteRepo": "useself",
+        "RemoteUsername": "hadley",
+        "RemotePkgRef": "hadley/useself",
+        "RemoteRef": "HEAD",
+        "RemoteSha": "e08c185e0243d1322ce7c2077bbf59c00301e342",
+        "GithubRepo": "useself",
+        "GithubUsername": "hadley",
+        "GithubRef": "HEAD",
+        "GithubSHA1": "e08c185e0243d1322ce7c2077bbf59c00301e342",
+        "NeedsCompilation": "no",
+        "Packaged": "2025-09-16 16:24:35 UTC; martinstavro",
+        "Author": "Hadley Wickham [aut, cre],\n  RStudio [cph, fnd]",
+        "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
+        "Built": "R 4.5.1; ; 2025-09-16 16:24:36 UTC; unix"
+      }
+    },
     "withr": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -868,16 +903,16 @@
   },
   "files": {
     ".posit/publish/deployments/deployment-KORB.toml": {
-      "checksum": "223cd4a2daf5920090b868f0fbdeb5ed"
+      "checksum": "c4a04aeaeaad12463c447408350cbd1a"
     },
     ".posit/publish/deployments/renv.lock": {
-      "checksum": "3a342aff86bf23634b0395c406b38d14"
+      "checksum": "89f4b1be3590d2e7efc11ac000fe1ddd"
     },
     ".posit/publish/madlibs-SOG0.toml": {
       "checksum": "d740b6b136e190517dcad78ad70fdb2f"
     },
     "app.R": {
-      "checksum": "a52c99a522fa9c8403a2e19973467449"
+      "checksum": "214f6f50ce665d7794e6776e72f5eac2"
     }
   },
   "users": null
